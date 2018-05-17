@@ -3,5 +3,16 @@
   <groupId>com.qa.calc.april</groupId>
   <artifactId>april-calc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <dependencies>
+	<dependency>
+	   <groupId>junit</groupId>
+	   <artifactId>junit</artifactId>
+	   <version>4.12</version>
+	   <scope>test</scope>
+	</dependency>
+  </dependencies>
+  
+  
+  
+  <packaging>jar</packaging>
 </project>
